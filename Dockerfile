@@ -8,4 +8,4 @@ COPY . .
 FROM nginx
 COPY --from=0 /app/build /usr/share/nginx/html
 
-CMD ["node", "app.js"]
+# CMD ["node", "app.js"]
